@@ -1,0 +1,97 @@
+.search{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+}
+
+.adminheader > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adminheader{
+    position: relative;   
+}
+.adminheader .formdiv3{
+    position: relative;
+    margin-top: 10%;
+}
+.adminheader .formdiv3 .btnSearch3{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    top: 0;
+    margin-top: 3px;
+    left: 98%;
+    background-color: black;
+    color: azure;
+}
+.adminheader .formdiv3 .textinput3{
+    width: 150px;
+    height: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.adminsidemenu{
+    position: fixed;
+    left: 0; 
+    border: 1px solid pink;
+    width: 250px;
+    height: 600px;
+}
+.adminsidemenu > ul{
+    margin-bottom: 30%;
+}
+.admindrop > li{
+    width: 150px; 
+    background: #eee; 
+    text-align: center;
+}
+.btndrop {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btndrop2 {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btndrop3 {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btndrop4 {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btndropsub{
+    display: none;
+}
+.btndropsub2{
+    display: none;
+}
+.btndropsub3{
+    display: none;
+}
+.btndropsub4{
+    display: none;
+}
+
+

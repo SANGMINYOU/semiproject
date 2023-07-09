@@ -1,0 +1,312 @@
+/* header start*/
+.search{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+}
+.header1 .log1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 30px;
+}
+
+.header1 .log1 > li > a {
+    font-size: 16px;
+}
+.header1 .log1 > li > a {
+    margin-left: 10px;
+}
+
+.header2 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 .formdiv{
+    position: relative;
+}
+.header2 .formdiv .btnSearch{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    left: 80%;
+    background-color: #569956;
+    color: azure;
+}
+.header2 .formdiv .textinput{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.icon1 ul {
+    font-size: 0;
+}
+.icon1 ul > li {
+    display: inline-block;
+}
+.icon1 ul > li + li {
+    margin-left: 40px;
+}
+.icon1 ul > li > a{
+    font-size: 30px;
+}
+
+.menu{
+    
+    background-color: white;
+}
+.menu > div{
+    height: 60px;
+}
+.menu > div > ul{
+    display: flex; 
+    align-items: center;
+    height: 100%;
+}
+.menu > div > ul > li{
+    width: 20%;
+    text-align: center;
+}
+.menu > div > ul > li > a{
+    color: #900020;
+    font-size: 17px;
+    font-weight: bold;
+}
+.bottommenu{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.bottommenu > div.inner {
+    width: 100%;
+}
+.bottommenu > div > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.bottommenu > div > ul > li > a {
+    display: block;
+    color: #900020;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.bottommenu > div > ul > li {
+    width: 30%;
+}
+.bottommenu > div > ul > li > ul > li + li {
+    margin-top: 20px;
+}
+.bottommenu > div > ul > li > ul > li > a {
+    color: rgb(66, 64, 64);
+}
+/* header end */
+
+/* main start */
+.section1 {
+    position: relative;
+    z-index: -99;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.visual1{
+    max-width: none;
+    width: 100%;
+    height: 650px;
+    background-image: url("../image/testpic2.png");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    box-sizing: border-box;
+}
+.visual2{
+    max-width: none;
+    width: 100%;
+    height: 650px;
+    background-image: url("../image/testpic3.png"); 
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    box-sizing: border-box;
+}
+.visual3{
+    max-width: none;
+    width: 100%;
+    height: 650px;
+    background-image: url("../image/testpic4.png"); 
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    box-sizing: border-box;
+}
+.visual4{
+    max-width: none;
+    width: 100%;
+    height: 650px;
+    background-image: url("../image/testpic.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    box-sizing: border-box;
+}
+.visual5{
+    max-width: none;
+    width: 100%;
+    height: 650px;
+    background-image: url("../image/testpic6.png");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    box-sizing: border-box;
+} 
+.hotitem {
+    color: #900020;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.item1 > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1 p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.img1 {
+    width: 200px;
+    height: 200px;
+}
+
+.section4 {
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 0px;
+}
+.section4 ul > li {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;   
+}
+.section4 .bannerimg{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.section4 ul > li > a {
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+.section6 .item1 p{
+    margin-bottom: 250px;
+}
+/* main end */
+
+/* footer start*/
+.footer .topfooter{
+    background-color: #FAF7F0;
+}
+
+.footer .sns1{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.footer .sns1 li {
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+.btmfooter {
+    padding: 30px 0;
+    box-sizing: border-box;
+    background: #FAF7F0;
+}
+.btmfooter li + li {
+    margin-top: 10px;
+}
+.footerlog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* footer end */
+
+/* popup */
+.scrollbanner{
+    border-radius: 15px;
+    position: absolute;
+    width: 100px;
+    height: 280px;
+    top: 50%;
+    left: 88%;
+    background: white;
+}
+.scrollbanner ul{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.scrolltop {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+}
+.scrolldown {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    font-size: 30px;
+}
+.popup-wrap .popup{
+    position: absolute;
+    top: 50%; 
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+.btnclose{
+    position: absolute;
+    cursor: pointer;
+    text-align: right;
+    font-size: 15px;
+    width: 100%;
+    bottom: -15px;
+    right: 0;
+    background: ivory;
+    color: black;
+}
+.hidden{
+    /* !important가 붙은 속성은 우선순위를 최상위로 높인다 */
+    display: none !important;
+}
+/* popup */

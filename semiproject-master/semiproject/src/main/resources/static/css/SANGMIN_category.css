@@ -1,0 +1,78 @@
+/* 상품 리스트 페이지 start */
+.search1{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+}
+.wrapper{
+	overflow:hidden;
+}
+.listsection1{
+	position:realtive;
+}
+.listselect{
+    position: absolute;
+    left: 31%;
+    bottom: 1px;
+}
+.listselect > select{
+    font-size: 20px;
+}
+
+.listitemtitle {
+    color: #900020;
+    margin-top: 80px;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+ul.itemW{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+ul.itemW > li img{
+	width: 280px;
+	height: auto;
+}
+ul.itemW > li img{
+	width: 100%;
+	height: 280px;
+}
+ul.itemW > li:nth-child(n+5){
+	margin-top: 10%;
+}
+.listitem1 > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.footer5 .formdiv1{
+    position: relative;
+    left: 38%;
+    margin-top: 6%;
+}
+.footer5 .formdiv1 .btnSearch1{
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    top: 0;
+    left: 20%;
+    background-color: #569956;
+    color: azure;
+}
+.footer5 .formdiv1 .textinput1{
+    width: 250px;
+    height: 26px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+
+/* 상품 리스트 페이지 end */

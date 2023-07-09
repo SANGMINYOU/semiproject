@@ -1,0 +1,33 @@
+/* event 본문 start */
+.eventitle > div{
+   	position: relative;
+}
+p{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+    color: #900020;
+}
+.eventitle1 > div{
+    position: relative;
+}
+.eventtitlesub{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+.eventtitlesub > li{
+    margin-bottom: 10px;
+}
+#eventcoupon{
+    text-align: left;
+    cursor: pointer;
+    color: black;
+}
+#eventcoupon:hover{
+    color: #569956;
+}
+/* event 본문 end */

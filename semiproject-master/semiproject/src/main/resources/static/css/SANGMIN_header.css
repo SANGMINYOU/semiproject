@@ -1,0 +1,117 @@
+/* header start*/
+.search{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+}
+.header1 .log1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 30px;
+}
+
+.header1 .log1 > li > a {
+    font-size: 16px;
+}
+.header1 .log1 > li > a {
+    margin-left: 10px;
+}
+
+.header2 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 .formdiv{
+    position: relative;
+}
+.header2 .formdiv .btnSearch{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    left: 80%;
+    background-color: #569956;
+    color: azure;
+}
+.header2 .formdiv .textinput{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.icon1 ul {
+    font-size: 0;
+}
+.icon1 ul > li {
+    display: inline-block;
+}
+.icon1 ul > li + li {
+    margin-left: 40px;
+}
+.icon1 ul > li > a{
+    font-size: 30px;
+}
+
+.menu{
+    background-color: white;
+}
+.menu > div{
+    height: 60px;
+}
+.menu > div > ul{
+    display: flex; 
+    align-items: center;
+    height: 100%;
+}
+.menu > div > ul > li{
+    width: 20%;
+    text-align: center;
+}
+.menu > div > ul > li > a{
+	color: #900020;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bottommenu{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.bottommenu > div.inner {
+    width: 100%;
+}
+.bottommenu > div > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.bottommenu > div > ul > li > a {
+    display: block;
+	color: #900020;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.bottommenu > div > ul > li {
+    width: 30%;
+}
+.bottommenu > div > ul > li > ul > li + li {
+    margin-top: 20px;
+}
+.bottommenu > div > ul > li > ul > li > a {
+    color: rgb(66, 64, 64);
+}
+/* header end */

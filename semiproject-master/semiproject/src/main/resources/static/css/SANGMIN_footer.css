@@ -1,0 +1,32 @@
+/* footer start*/
+.footer .topfooter{
+    background-color: #FAF7F0;
+}
+
+.footer .sns1{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.footer .sns1 li {
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+.btmfooter {
+    padding: 30px 0;
+    box-sizing: border-box;
+    background: #FAF7F0;
+}
+.btmfooter li + li {
+    margin-top: 10px;
+}
+.footerlog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* footer end */

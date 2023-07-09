@@ -1,0 +1,227 @@
+/* header start*/
+.search{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+}
+.header1 .log1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 30px;
+}
+
+.header1 .log1 > li > a {
+    font-size: 16px;
+}
+.header1 .log1 > li > a {
+    margin-left: 10px;
+}
+
+.header2 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 .formdiv{
+    position: relative;
+}
+.header2 .formdiv .btnSearch{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    left: 80%;
+    background-color: #009539;
+    color: azure;
+}
+.header2 .formdiv .textinput{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.icon1 ul {
+    font-size: 0;
+}
+.icon1 ul > li {
+    display: inline-block;
+}
+.icon1 ul > li + li {
+    margin-left: 40px;
+}
+.icon1 ul > li > a{
+    font-size: 30px;
+}
+
+.menu{
+    border-bottom: 2px solid bla;
+    background-color: white;
+}
+.menu > div{
+    height: 60px;
+}
+.menu > div > ul{
+    display: flex; 
+    align-items: center;
+    height: 100%;
+}
+.menu > div > ul > li{
+    width: 20%;
+    text-align: center;
+}
+.menu > div > ul > li > a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bottommenu{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.bottommenu > div.inner {
+    width: 100%;
+}
+.bottommenu > div > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.bottommenu > div > ul > li > a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.bottommenu > div > ul > li {
+    width: 30%;
+}
+.bottommenu > div > ul > li > ul > li + li {
+    margin-top: 20px;
+}
+.bottommenu > div > ul > li > ul > li > a {
+    color: black;
+}
+/* header end */
+
+/* 상품 상세페이지 start -- */
+.itemsection1{
+    position: relative;
+    padding: 50px 0;
+}
+.itemmain{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 450px;
+    height: 450px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+    text-align: center;
+}
+.itemtitle{
+    float: right;
+    display: block;
+    font-size: 30px;
+}
+.itemstar > .itemstar-score{
+    border: 1px solid orange;
+    font-size: 12px;
+}
+.itemtitle1{
+    margin-top: 10%;
+}
+.itemtitle1 > ul{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.itemtitle1 > ul > li{
+    margin-top: 20px;
+}
+.numbericon{
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 0px;
+}
+.itembox{
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 0px;
+}
+.itembox > div{
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;
+}
+.itembox .addcart{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.itembox .buyitem{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.itembox > div > a{
+    display: block;
+}
+
+
+
+
+/* 상품 상세페이지 end -- */
+
+
+/* footer start*/
+.footer .topfooter{
+    border: 1px solid black;
+    background-color: #FAF7F0;
+}
+
+.footer .sns1{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.footer .sns1 li {
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+.btmfooter {
+    padding: 30px 0;
+    box-sizing: border-box;
+    background: #FAF7F0;
+}
+.btmfooter li + li {
+    margin-top: 10px;
+}
+.footerlog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* footer end */

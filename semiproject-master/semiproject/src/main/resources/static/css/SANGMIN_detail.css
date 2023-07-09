@@ -1,0 +1,109 @@
+/* 상품 상세페이지 start -- */
+.itemsection1 > div{
+    position: relative;
+    padding: 50px 0;
+    
+}
+.itemmain{
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    margin-right: 5%;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.itemtitle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 49%;
+    margin-bottom: 15%;
+    align-items: center;
+    font-size: 25px;
+}
+.itemtitle > p{
+    width: 100%;
+}
+.itemstar{
+    font-size: 20px;
+    margin-right: 77%;
+    margin-top: 5%;
+}
+.itemtitle1{
+    margin-left: 100%;
+    margin-top: 5%;
+}
+.itemtitle1 > ul{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.itemtitle1 > ul > li{
+    margin-top: 20px;
+}
+.itemcount{
+    margin-top: 30px;
+}
+#itemcountall{
+	margin-bottom: 15px;
+}
+.btndown{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../image/minus.png");
+    font-size: 0px;
+    border: 1px solid #B2B2B2;
+}
+.itemnumbercheck{
+    float: left;
+    height: 29px !important;
+    vertical-align: top;
+    width: 49px !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    visibility: visible;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #B2B2B2;
+}
+.btnup{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../image/plus.png);
+    font-size: 0px;
+    border: 1px solid #B2B2B2;
+}
+.itembox{
+    margin-top: 5%;
+}
+#submit-purchase{
+	border: none;
+}
+.addcart{
+    float: left;
+}
+#submit-basket{
+	border: none;
+}
+.itemsection2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.itemsection3{
+    position: relative;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.review > img{
+    width: 8%;
+    height: 8%;
+    display: block;
+    margin-left: 20%;
+}
+
+
+/* 상품 상세페이지 end -- */

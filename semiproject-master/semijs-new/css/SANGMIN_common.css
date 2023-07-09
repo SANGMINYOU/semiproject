@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.inner{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
